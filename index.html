@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Selling Open Source 101</title>
+  <meta name="author" content="Henrik Ingo"/>
+  <meta name="description" content="For a narrative, see http://openlife.cc/blogs/2014/september/selling-open-source-101-sales-funnel-and-its-variables">
+  <meta name="keywords" content="selling, open source, business, strategy" />
+  <link rel="stylesheet" href="css/hovercraft.css" media="all" />
+  <link rel="stylesheet" href="css/impressConsole.css" media="all" />
+  <link rel="stylesheet" href="css/highlight.css" media="all" />
+  <link rel="stylesheet" href="my.css" media="all">
+</head>
+<body class="impress-not-supported">
+
+<div id="impress">
+  
+  <div class="step" data-scale="21" data-x="-1000" data-y="0">
+    <p style="font-size: 65%; position: absolute; top: 300px; ">Author: Anand Dharne, 2017. Please share and reuse this presentation using the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a>.</p>
+  </div>
+  
+  <div class="step" data-scale="20" data-x="0" data-y="0">
+    <img style="opacity: 0.5 " src="images/bg2.jpg">
+  </div>
+  
+  <div class="step" step="1" data-scale="9" data-x="-12000" data-y="-4000">
+    <h1> <span> Hello BLACK </span>
+<span style="color: #5DBCD2"> DUCK</span>
+    </h1>
+    <p>My name is Anand Dharne, you can call me Andy! I love analytical thinking, thinking out of the box and like to be on top of the latest tech </p>
+    <p> In this presentation, I am going to introduce a little about myself and then talk about how Blockchain can solve the shortcomings of Big Data and how incorporating blockchain can the current BlackDuck architecture. I researched about the how BlackDuck is using Big Data to manage large data sets after having an enlightening discussion with Bill. This is my effort to just present a high level overview of what are the advantages of blockchain technology that can overcome limitations of Hadoop and how it can be beneficial to increased revenue
+  </div>
+  
+  <div class="step" step="2" data-y="1600" data-x="-12000" data-scale="8">
+
+   <br> <br>
+    <img src="images/Anandportrait.jpg" 
+         align="right"/>
+    
+    <img src="images/ducky2.png" width="90" height="60" 
+         style="position: inherit; top: 15px; left: -90px" />
+    <img src="images/ducky3.png" width="100" height="60" 
+         style="position: inherit; top: 190px; left: -230px" />
+    <img src="images/ducky5.png" width="90" height="60" 
+         style="position: inherit; top: 300px; left: -59px" />
+
+
+         
+    <p
+     style="position: inherit; top: 350px; left: 110px" />
+     <a href="https://github.com/ananddharne"> My Github</a></p>
+     <br>
+
+     <p>
+     	<b> In love with Ducky for some reason. I loved the great culture when I visited the last time!  :) </b>
+     </p>
+    
+  </div>
+
+  <div class="step" step="3" data-scale="1" data-x="-6500" data-y="-3500">
+    <h1>I want to build <span style="color: #5DBCD2"> new </span> and <span style = "color: #5DBCD2"> useful </span> stuff together with <span style = "color: #5DBCD2"> kickass people </span> that <span style = "color: #5DBCD2">  care </span> </h1>
+    
+    <img src="images/picbd.jpg" alt="People enjoying together after a days hard work" />
+
+  </div>
+
+  <div class="step" step="4" data-scale="1" data-x="-6500" data-y="-2500">
+    <h1>So I want to help you build, <span> BLACK </span>
+<span style="color: #5DBCD2"> DUCK</span>, doing awesome things, be it rectifying and reducing the vulnerabilities in open source code, working with the <b> Knowledge </b> <span style = "color: #5DBCD2">Base </span>, work on the UI (Javascript) of <span style = "color: #5DBCD2"> Hub </span> perform Quality analysis or ensure customer success. I want to experience it all, since I believe I will get tremendous knowledge about the product and the SDLC as a whole </h1>
+    
+  </div>
+  
+  <div class="step" step="5" data-scale="1" data-x="-6000" data-y="-2130">
+  <br><br> <br> <br><br><br>
+
+   
+     <h1> Big Data and its analysis</h1>
+    <ul>
+   <!--  <li>Never worked with Hadoop but was always interested in diving in; below is a summary of certain concepts and technologies I learned </li> -->
+      <li>Big data refers to high volume, high speed and high uncertainty of data</li>
+    </ul>
+  </div>
+  
+  <div class="step" step="6" data-scale="1" data-x="-6700" data-y="-1650">
+    <h1>Hadoop</h1>
+    <ul>
+    <li>Never worked with Hadoop but was always interested in diving in; below is a summary of certain concepts and technologies I learned </li>
+      <li> <b>1</b> Reduces the time required to query the data of various data formats; data being structured or unstructured</li>
+      <li> <b> 2</b> HDFS: Distributed File system used to store huge volumes of data split in multiple data nodes in a cluster which uses physical hard disk in the nodes.</li>
+    </ul>
+      
+  </div>
+
+  <div class="step" step="7" data-scale="1" data-x="-6000" data-y="-1230">
+    <br><br><br><br><br><br><br>
+    <li><b>3  NameNode: </b> The Name Node is a master node; it is responsible for storing the Meta data of files and directories</li>
+    <li><b>4 DataNode: </b> It is a slave node that has actual data. It reports to NameNode in regular intervals. Also known as Heart Beats.</li>
+   
+  </div>
+
+  <div class="step" step="8" data-scale="1" data-x="-6500" data-y="-850">
+    <br><br><br><br><br><br><br>
+    <li><b>5 Secondary NameNode: </b> SecondaryNameNode: It periodically merges changes in the NameNode with the edit logs
+(transactions). It takes the backup of Metadata information frequently which can be used for any failure of name </li>
+  </div>
+
+  <div id="twoModels" class="step" step="10" data-scale="1" data-x="-6500" data-y="1500">
+  <h1> A high level overview of Hadoop Architecture</h1>
+    <img src="images/haadarch.jpg" alt="sorry" />
+  </div>
+  
+  <div class="step" step="11" data-scale="1" data-x="-6000" data-y="4100">
+    <ul>
+      <li> <b>1 MapReduce: </b>  MapReduce is a batch job, it has mapper task and reduce task. Most of the Eco system use MapReduce as a backend logic for any of the queries or aggregations.</li>
+      <li> <b> 2 Hive: </b> A data warehouse environment in Hadoop framework. Here the data can be stored in structured format. HQL (Hive Query Language) used to manage and process data. It can process structured data – XML, JSON and URL’s (Web logs)</li>
+    </ul>
+  </div>
+
+  <div class="step" step="12" data-scale="1" data-x="-4000" data-y="4100">
+    <ul>
+      <li> <b> 3 HBase: </b> It is a NOSQL (Not only SQL), means it is a columnar database</li>
+     <li><b>4 Kafka: </b> It is a messaging service in Hadoop used to  integrate Hadoop and non Hadoop systems.</li>
+    </ul>
+  </div>
+  
+  <div class="step" step="13" data-scale="1" data-x="-5100" data-y="-3200">
+    <h1>Advancements in Big Data</h1>
+    
+    <ul>
+      <li>Hadoop uses HDFS for read and write but newer systems like Apache Spark are In-memory processing engines</li>
+      <li><b>Spark:</b> Fast and General purpose cluster computing systems, provides high level API's in Java, Python and R </li>
+    </ul>
+
+  </div>
+
+  <div class="step" step="14" data-scale="1" data-x="-4600" data-y="-2130">
+    <h1>Existing security implementation in Hadoop</h1>
+    <ul>
+      <li>Hadoop uses SSH (Secured Shell) as a basic authentication for users to run on any jobs in Hadoop. </li>
+      <li>Apache Accumulo provides mechanisms for adding additional security when using Hadoop.
+</li>
+<li>Keberos RPC Mutual Connection is used to process and authenticate users</li>
+<li>Block Access Tokens are used to access control decisionbased on HDFS file permissions</li>
+
+    </ul>
+  </div>
+  
+<!--  <div class="step" step="15" data-scale="1" data-x="-4300" data-y="-400">-->
+  <div class="step" step="15" data-scale="1" data-x="-2500" data-y="-400">
+    <h1>Blockchain</h1>
+    <ul>
+     
+      <li>The blockchain is a decentralized ledger, or list, of all transactions across a peer-to-peer network</li>
+     
+      <li>It deals with Transactions. Transaction details are replicated in a number of systems called open ledger( distributed, replicated in multiple nodes in a cluster environment)</li>
+      <li>Transactions can be read or written by any peer in the cluster.</li>
+
+    </ul>
+  </div>
+  
+  <div class="step" step="17" data-scale="1" data-x="-2500" data-y="2200">
+    <h1>Miners</h1>
+    <ul>
+      <li>Special nodes in the Cluster acts as Miners, whose job is to
+authenticate, validate the transaction with mathematical
+models to secure. It works on publish and subscribe. The first
+miner which does the mathematical cryptographic calculations
+and authorize the transaction will get rewarded with BitCoin
+called “Proof of Work”</li>
+      
+    </ul>
+  </div>
+
+  <div class="step" step="18" data-scale="1" data-x="-4800" data-y="700">
+    <h1>Need for Blockchain</h1>
+    <ul>
+      <li><b>1 Inter Cluster communication: </b> As of now, Hadoop is
+mainly concentrated on processing the data and give
+faster response on a huge volume of the data within a cluster. When it comes to inter cluster communication, it
+is difficult to share the block information from one
+cluster to other cluster. It requires $hadoop distcp
+command to copy the files from one cluster to other and
+then start processing the data</li>
+      
+    </ul>
+  </div>
+
+  <div class="step" step="19" data-scale="1" data-x="-4300" data-y="2500">
+  
+    <ul>
+      <li> <b>2 Data Storage:</b> 
+      As Hadoop  already has HDFS, this
+can be utilized for data distribution across the globe, so
+that many clusters co-exist. Currently one NameNode
+maintains Meta data about the files. If the NameNode in
+a cluster fails then there is no way to execute jobs
+without having the file information. This has to be
+enhanced, similar to BlockChain where there is no single
+point of failure. </li>
+    </ul>
+  </div>
+
+  
+  
+  
+  
+  <div class="step" step="30" data-scale="1" data-x="-2700" data-y="-2700">
+    <li><b> 3 Open ledger: </b>Though Hadoop History server maintains
+logs, it is not related to transactions ACID properties
+(Atomicity, Consistency, Isolation and Durability).
+Hadoop cluster in general is private. Currently it is
+mostly executing the batch jobs for processing the
+queries in analytics. Considering future aspects of
+information sharing and authenticating there needs an
+Open Ledger where all peers will have replicated
+information of all transactions.</li>    
+  </div>
+  
+  <div class="step" step="31" data-scale="1" data-x="-3900" data-y="-2900">
+   <li><b>4 Cryptographic Authentication:</b> Though security is
+maintained in Hadoop to some extent either internally or
+using third party framework, it requires a strong
+mechanism to validate and allow any manipulation of
+sensitive data. BlockChain security is maintained, there are least
+chances that hackers manipulate any of the data by
+reading through its previous transactions</li>   
+    
+  </div>
+  
+  <div class="step" step="32" data-scale="1" data-x="-2500" data-y="-5500">
+    <h1>Bigchain DB </h1>    
+    BigchainDB is a scalable blockchain database and an extension to Big Data technologies. That is, it’s a “big data” database with some blockchain characteristics added, including decentralization, immutability and native support for assets.
+    At a high level, one can communicate with a BigchainDB cluster (set of nodes) using the BigchainDB Client-Server HTTP API, or a wrapper for that API, such as the BigchainDB Python Driver. Each BigchainDB node runs BigchainDB Server and various other software.
+  </div>
+  
+  <div class="step" step="33" data-scale="1" data-x="-1000" data-y="-5000">
+    <h1>Smart Contracts! (Revolutionary or not?)</h1>    
+    <ul>
+      <li>Smart contracts are computer protocols that facilitate, verify, or enforce the negotiation or performance of a contract, or that make a contractual clause unnecessary. Smart contracts often emulate the logic of contractual clauses.</li>
+      <li>Ethyrium and Hyperledger (IBM) are two terminolgies that have become heavily popular</li>
+      <li>Hyperledger Fabric module lets you work with Java and do not need a cryptocurrency base</li>
+
+    </ul>    
+  </div>
+  
+  <div class="step" step="34" data-scale="1" data-x="0" data-y="-3400">
+    <h1>Blockchain in Hadoop</h1>    
+    <img src="images/bchinhad.jpg" alt="451 Group: NoSQL Linkedin Skills Index - June 2014" />
+  </div>
+  
+  <div class="step" step="35" data-scale="1" data-x="2500" data-y="-1700" data-rotate-z="-10">
+    <h1>Conclusion </h1>    
+    <p>To conclude I would like to mention a few things: <br> <br>  
+     Data is ever changing and is always going to scale  as an organization thrives <br>
+     Security concerns and issues rise as data increases
+     Existing technologies do not give a solution to inherent transparency and security needs to be imposed <br>
+     Certain organizations who have data intensive code can certainly benefit from the Blockchain transparency
+     Litigation problems can be solved because there will be no need of actual contracts, automation will take care of everything!
+
+    </p>
+  </div>
+  
+  
+  
+  
+  <!-- <div class="step" step="50" data-scale="1" data-x="3600" data-y="-3400">
+    <h1>References</h1>
+  </div> -->
+  
+  <!-- <div class="step" step="51" data-scale="1" data-x="5700" data-y="-3300">
+    <h1 id="slide-one">Traditional (proprietary) sales funnel</h1>    
+    <img src="images/blog-traditional-funnel.png" alt="The traditional software sales funnel: Awareness, Lead, Qualified Lead, Adoption, Customer" />
+  </div>
+ -->
+ <!--  <div id="propVsOpen" class="step" step="20" data-scale="1" data-x="7000" data-y="-3000">
+    <table>
+    <tr><td></td>
+        <td><h1 style="font-size: 130%">Proprietary</h1></td>
+        <td>vs</td>
+        <td><h1 style="font-size: 130%">Open&nbsp;Source</h1></td></tr>
+    <tr><td>Sales effort to convince someone to </td>
+        <td><strong>use</strong></td>
+        <td></td>
+        <td><strong>pay</strong></td></tr>
+    <tr><td>Sales cycle</td>
+        <td><strong>long, expensive</strong></td>
+        <td></td>
+        <td><strong>short, efficient</strong></td></tr>
+    <tr><td>Price is a function of</td>
+        <td><strong>migration cost<br /> (lock in)</strong></td>
+        <td></td>
+        <td><strong>value</strong></td></tr>
+    </table>
+  </div> -->
+
+  <div class="step" step="52" data-scale="1" data-x="8500" data-y="-5000">
+    <h1>References!</h1>
+    <ul>
+      <b>[1]</b> Lakshman and Shireesha Yeddu, Hadoop: Bitcoin-BlockChain - A New Era Needed In
+Distributed Computing <br>
+<b>[2]</b> Poonam S.Patil, Rajesh. N. Phursule, Survey Paper on
+Big Data Processing and HadoopComponents <br>
+<b>[3]</b> A gentle introduction to blockchain technology
+Available, https://bitsonblocks.net/2015/09/09/a-gentleintroduction-to-blockchain-technology/ <br>
+<b>[4] </b>Sanjeev Dhawan, Sanjay Rathee, Big Data Analytics
+using Hadoop Components like Pig and Hive <br>
+    </ul>
+  </div>
+  
+  <!-- <div class="step" step="53" data-scale="1" data-x="9600" data-y="-3930">
+  <div class="step" step="53" data-scale="1" data-x="9350" data-y="-3870" data-rotate-z="-25">
+    <h1>Conclusion</h1>
+  </div> -->
+  
+  <!-- <div class="step" step="54" data-scale="1" data-x="9000" data-y="-900">
+    <h1>In Open Source...</h1>
+    <ul>
+      <li>Conversion ratio is tiny</li>
+      <li>Prices are low</li>
+    </ul>
+  </div> -->
+
+  <!-- <div class="step" step="55" data-scale="1" data-x="9500" data-y="100">
+    <h1>This must be offset by</h1>
+    <ul>
+      <li>Massive adoption</li>
+      <li>Efficient sales cycle</li>
+      <li>Shared R&amp;D investment</li>
+    </ul>
+  </div> -->
+  
+
+
+  
+  
+  
+  <!-- <div class="step smalltext" step="99" data-x="1000" data-y="3000" data-scale="1">
+    <h1>Thanks</h1>
+    <p>Last but not</p>
+  </div> -->
+
+  
+  <!-- <div class="step smalltext" step="99" data-x="100" data-y="4500" data-scale="1">
+    <h1>Image credits</h1>
+    <ul>
+    <li>Attractive Chinese Woman Selling Sweet Jelly<br />
+       CC BY: <a href="https://www.flickr.com/photos/epsos/6891884103/" class="url">https://www.flickr.com/photos/epsos/6891884103/</a></li>
+    <li>Henrik Ingo portrait on white bakground:<br />
+       Julian Cash</li>
+    <li>Logos of their respective owners:<br />
+       Open Source Initiative, MySQL, Drupal, MongoDB</li> 
+    </ul>
+  </div> -->
+  
+</div>
+
+<div id="hovercraft-help">
+  <table>
+    <tr><th>Space</th><td>Forward</td></tr>
+    <tr><th>Right, Down, Page Down</th><td>Next slide</td></tr>
+    <tr><th>Left, Up, Page Up</th><td>Previous slide</td></tr>
+    <tr><th>P</th><td>Open presenter console</td></tr>
+    <tr><th>H</th><td>Toggle this help</td></tr>
+  </table>
+</div>
+
+<script type="text/javascript" src="js/impress.js"></script>
+<script type="text/javascript" src="js/impressConsole.js"></script>
+<script type="text/javascript" src="js/hovercraft.js"></script>
+
+</body>
+</html>
